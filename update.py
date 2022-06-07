@@ -4,7 +4,7 @@ import csv
 from time import sleep
 from random import randint
 
-f = open('notebook.scv', 'w', encoding='utf-8', newline='\n')
+f = open('notebook.csv', 'w', encoding='utf-8', newline='\n')
 f_obj = csv.writer(f)
 f_obj.writerow(['Title', 'Price'])
 
